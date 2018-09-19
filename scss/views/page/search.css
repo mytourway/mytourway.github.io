@@ -8,16 +8,14 @@
     display: table;
     clear: both; }
 
-@media screen and (min-width: 980px) {
-  body .mini-article__cover {
-    height: 290px; } }
-
 .page__mini-article {
   width: 100%;
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   transition: box-shadow 0.3s;
   line-height: 1.4; }
+  .page__mini-article .mini-article__cover {
+    height: 290px; }
   .page__mini-article:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
     .page__mini-article:hover .mini-article__cover::before {
@@ -191,7 +189,7 @@
 
 @media screen and (min-width: 1280px) {
   body .page__post {
-    width: 290px; } }
+    width: 282px; } }
 
 .page__posts {
   margin-top: -30px;

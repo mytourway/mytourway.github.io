@@ -171,6 +171,8 @@ body {
   animation: animations 1s linear forwards; }
 
 @media screen and (min-width: 736px) {
+  body .page__container {
+    width: 706px; }
   body .page__main {
     padding-top: 80px;
     padding-bottom: 80px; } }
